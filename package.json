@@ -1,0 +1,14 @@
+{
+  "name": "inline-stupid-css-in-your-html",
+  "description": "Script to scan your HTML files, get all css code, inline it and then remove css file imports.",
+  "main": "magic.js",
+  "bin": "magic.js",
+  "scripts": {
+    "run": "node magic.js",
+  },
+  "author": "Mirzet Kameric",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+  }
+}
